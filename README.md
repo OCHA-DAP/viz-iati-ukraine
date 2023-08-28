@@ -1,8 +1,12 @@
-# Covid-19 visualization
+# Ukraine IATI Dashboard
 
-A simple visualization using published IATI data on Covid-19.
+> We are no longer maintaining the Ukraine IATI Dashboard as of 14/08/2023
+> 
+> Contact us at [hdx@un.org](mailto:hdx@un.org) with questions or feedback.
 
-Data is generated nightly by the [OCHA-DAP/hdx-scraper-iati-viz](https://github.com/ocha-dap/hdx-scraper-iati-viz) repository.
+A simple visualization using published IATI data on Ukraine.
+
+Data was last generated 14/08/2023 by the [OCHA-DAP/hdx-scraper-iati-viz](https://github.com/ocha-dap/hdx-scraper-iati-viz) repository.
 
 ## Build Setup
 
