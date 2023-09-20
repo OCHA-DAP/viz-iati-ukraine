@@ -1,6 +1,9 @@
 <template>
   <div class="iati-viz mb-4">
-    <OchaHeader class="mb-4" />
+    <OchaHeader />
+    <b-alert show class="alert-message">
+      <p>We are no longer maintaining the IATI Ukraine Funding Dashboard as of <b>2023-08-14</b>. Contact us at <a href="mailto:hdx@un.org">hdx@un.org</a> with questions or feedback.</p>
+    </b-alert>
     <b-container>
       <b-navbar-brand :to="'/'">
         <span v-html="pageTitle" />
@@ -79,6 +82,22 @@
     img {
       width: auto;
     }
+  }
+}
+.alert-message {
+  background-color: #FDE9E8;
+  border: 1px solid #F2645A;
+  border-radius: 0;
+  color: #000;
+  font-size: 16px;
+  padding: 0;
+  text-align: center;
+  a {
+    color: #F2645A;
+  }
+  p {
+    margin: 0;
+    padding: 20px;
   }
 }
 
